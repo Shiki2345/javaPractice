@@ -105,7 +105,7 @@ class SDC{
     }
 }
 /**************************************************************************************/
-class GameHelper{
+class sdcGameHelper{
     public String getUserInput(String prompt){
         String inputLine = null;
         System.out.print(prompt + " ");
@@ -160,8 +160,3 @@ class GameHelper{
         最终，返回用户输入的内容。
         应用场景：
         这种方法常用于控制台应用程序中，需要从用户获取输入时。例如，在游戏中，玩家可能需要输入猜测、选择等内容，getUserInput 就可以提供这样一个简单的方式来获取输入。*/
-
-
-
-
-
